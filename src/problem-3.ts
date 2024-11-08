@@ -9,9 +9,7 @@
       const sanitizedWord = word.replace(/[!@#$%^&*]/g, ""); // exclude special characters from every single word
       const sanitizedTargetWord = targetWord.replace(/[!@#$%^&*]/g, ""); // exclude special characters from target word
 
-      if (
-        sanitizedWord.toLowerCase().includes(sanitizedTargetWord.toLowerCase())
-      ) {
+      if (sanitizedWord.toLowerCase() === sanitizedTargetWord.toLowerCase()) {
         count++;
       }
     });
