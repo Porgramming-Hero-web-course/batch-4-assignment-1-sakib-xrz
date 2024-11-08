@@ -56,4 +56,4 @@ In this example, `userAdmin` has properties from both `User` and `Admin`. It mus
 
 ## Summary
 
-`Union` and `intersection` types are essential tools in TypeScript for creating clean, maintainable code with strong type safety. By understanding when and how to use them, you can write more versatile and reliable applications.
+`Union` and `intersection` types are essential tools in TypeScript for creating clean, maintainable code with strong type safety. By understanding when and how to use them, we can write more versatile and reliable applications.
